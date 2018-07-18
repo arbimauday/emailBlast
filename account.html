@@ -3,72 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <title>Info-Account</title>
-</head>
-<body style="font-family: Helvetica, Arial, sans;color: #494949;
-    font-size: 12px;background-color: rgb(234,234,234);margin: 0px;height: 100%">
+    <style>
+        body{
+            font-family: Helvetica, Arial, sans;
+            color: #494949;
+            font-size: 12px;
+            background-color: rgb(234,234,234);margin: 0px;height: 100%
+        }
+        h1{
+            font-size: 30px;
+            font-weight: 800;
+        }
 
-<div style="width: 600px;height: 100%;margin: 0 auto;background-color: #fff;background-image: url('http://arbaxtreme.tv/assets-email/bg-img.png');background-repeat: no-repeat;
-/*background-position: -10px -30px;*/background-position: -280px -50px;">
-    <div style="padding: 25px 90px 40px 90px;">
-        <div class="logo" style="text-align: center;margin: 20px 0">
+        .logo{
+            text-align: center;margin: 20px 0
+        }
+
+        .wrapping-1{
+            width: 600px;
+            height: 100%;
+            margin: 0 auto;
+            background-color: #fff;
+            background-image: url('http://arbaxtreme.tv/assets-email/bg-img.png');
+            background-repeat: no-repeat;
+            background-position: -280px -50px;
+        }
+
+        .wrapping-body{
+            padding: 25px 90px 40px 90px;
+        }
+        .body-text{
+            font-weight: bold;font-size: 17px;
+        }
+        p span{
+            font-size: 13px;
+            color: #8b8b8b;
+        }
+        p a{
+            color: #267bc2;
+        }
+
+        hr{
+            margin-top: 60px;
+            border:2px solid #267bc2;
+        }
+
+        .m-t-30{
+            margin-top: 30px;
+        }
+        .m-t-25{
+            margin-top: 25px;
+        }
+
+        .link-big{
+            font-size: 15px;
+            text-decoration: none;
+            color: #267bc2;
+        }
+
+        .wrapping-footer{
+            background-color: #242424;
+            padding: 32px 90px 40px 90px;
+            color:#adadad;
+            font-size: 13px;
+        }
+        .wrapping-footer p a{
+            color: #adadad;
+        }
+        .no-underline{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body style="">
+
+<div class="wrapping-1">
+    <div class="wrapping-body">
+        <div class="logo">
             <img src="http://arbaxtreme.tv/assets-email/logo.png" alt="" width="252px">
         </div>
-        <div class="body-text" style="font-weight: bold;font-size: 17px;">
-            <h1 style="font-size: 30px;
-    font-weight: 800;">New sign-in to GlobalXtreme</h1>
-            <p style="margin-top: 30px;">Hi Kevin,</p>
-            <p style="margin-top: 25px;">We noticed a new sign-in with your GlobalXtreme account (<a href="#" style="color: #267bc2;">kevinpurwono10@gmail.com</a>)</p>
+        <div class="body-text">
+            <h1>New sign-in to GlobalXtreme</h1>
+            <p class="m-t-30">Hi Kevin,</p>
+            <p class="m-t-25">We noticed a new sign-in with your GlobalXtreme account (<a href="#" >kevinpurwono10@gmail.com</a>)</p>
 
-            <p style="margin-top: 25px">
-                <span style="font-size: 13px;color: #8b8b8b;">Device</span><br>
+            <p class="m-t-25">
+                <span >Device</span><br>
                 Computer
             </p>
             <p>
-                <span style="font-size: 13px;color: #8b8b8b;">Location</span><br>
+                <span >Location</span><br>
                 Indonesia
             </p>
             <p>
-                <span style="font-size: 13px;color: #8b8b8b;">Time</span><br>
+                <span >Time</span><br>
                 July 10th, 8:04 AM GMT+7
             </p>
 
-            <p style="margin-top: 25px">
+            <p class="m-t-25">
                 If you signed-in recently, relax and enjoy watching! But if you don't recognize this sign-in, we recommend that you
-                <a href="#" style="color: #267bc2;">change your password</a> immediately to secure your account.
+                <a href="#" >change your password</a> immediately to secure your account.
             </p>
 
-            <p style="margin-top: 25px">
-                We're here to help if you need it. Visit the <a href="#" style="color: #267bc2;">Help Center</a> for more info o
-                <a href="#" style="color: #267bc2;">contact us.</a>.
+            <p class="m-t-25">
+                We're here to help if you need it. Visit the <a href="#" >Help Center</a> for more info o
+                <a href="#" >contact us.</a>.
             </p>
 
-            <p style="margin-top: 25px">-Your friends at Netflix</p>
+            <p class="m-t-25">-Your friends at Netflix</p>
 
-            <hr style="margin-top: 60px;border:2px solid #267bc2;" />
+            <hr/>
 
-            <p><a href="#" style="font-size: 15px;text-decoration: none;color: #267bc2;">VIEW ALL TV SHOWS & MOVIES ></a></p>
+            <p><a href="#" class="link-big">VIEW ALL TV SHOWS & MOVIES ></a></p>
         </div>
     </div>
 
-    <div class="row bg-footer m-t-40" style="background-color: #242424;padding: 32px 90px 40px 90px;">
-        <div class="footer-text" style="color:#adadad;font-size: 13px;">
-            <p>Questions? Visit the <a href="#" style="color:#adadad;">Help Center</a></p>
-            <p class="m-t-15">
-                This account email has been sent to you as part of your GlobalXtreme membership. TO change your email preferences at any time, please visit
-                the <a href="#" style="color:#adadad;">Communication Settings</a> page for your account.
-            </p>
-            <p class="m-t-15">
-                Please do not reply to this email, as we are unable to respond from this email address. If you need help or would like to contact us, please visit our Help Center at
-                <a href="#" style="color:#adadad;">help.globalxtreme.com</a>.
-            </p>
-            <p class="m-t-15">
-                This message was mailed to [<a href="#" style="color: #adadad;text-decoration: none;">kevinpurwono10@gmail.com</a>] by GlobalXtreme.<br/>
-                SRC: 12853 en ID <br/>
-                Use of the GlobalXtreme service and website is subject to our
-                <a href="#" style="color:#adadad;">Terms of Use</a> and <a href="#"  style="color:#adadad;">Privacy Statement</a>.<br/>
-                GlobalXtreme National B.V.
-            </p>
-        </div>
+    <div class="wrapping-footer">
+        <p>Questions? Visit the <a href="#" >Help Center</a></p>
+        <p class="m-t-15">
+            This account email has been sent to you as part of your GlobalXtreme membership. TO change your email preferences at any time, please visit
+            the <a href="#">Communication Settings</a> page for your account.
+        </p>
+        <p class="m-t-15">
+            Please do not reply to this email, as we are unable to respond from this email address. If you need help or would like to contact us, please visit our Help Center at
+            <a href="#">help.globalxtreme.com</a>.
+        </p>
+        <p class="m-t-15">
+            This message was mailed to [<a href="#" class="no-underline">kevinpurwono10@gmail.com</a>] by GlobalXtreme.<br/>
+            SRC: 12853 en ID <br/>
+            Use of the GlobalXtreme service and website is subject to our
+            <a href="#">Terms of Use</a> and <a href="#">Privacy Statement</a>.<br/>
+            GlobalXtreme National B.V.
+        </p>
     </div>
 
 </div>
