@@ -6,8 +6,8 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'arbimauday@gmail.com';
-$mail->Password = 'arbianto';
+$mail->Username = ''; /* user pengirim (akun gmail)*/
+$mail->Password = ''; /* password gmail */
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
